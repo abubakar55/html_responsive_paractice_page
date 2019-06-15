@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ">
+    <meta name="description" content="Affordable and Professional Web Design">
+    <meta name="keywords" content="web design, affordable web design, professional web design" >
+    <meta name="author" content="Muhammad Abu Bakar" >
+    <title>New web page a responsive</title>
+    <link href="style.css" rel="stylesheet"  type="text/css" >
+
+</head>
+<body>
+  <header>
+     <div class="container">
+         <div id="branding">
+             <h1>
+                 <span class="highlight">Abu_bakar </span> web design
+             </h1>
+         </div>
+         <nav>
+             <ul>
+                 <li class="current ">
+                     <a href="index.html" >HOME</a>
+                 </li>
+                 <li>
+                     <a href="" >SERVICES</a>
+                 </li>
+                 <li>
+                     <a href="" >PRODUCTS</a>
+                 </li>
+             </ul>
+         </nav>
+     </div>
+
+  </header>
+      <section id="showcase">
+          <div class="container">
+              <h1>
+                  Affordable web design
+              </h1>
+              <p>
+                  is laudantium ex at dicta consequatur aspernatur dignissimos?
+              </p>
+
+          </div>
+
+      </section>
+<section id="newsletter">
+    <div class="container">
+        <h1>
+            SUBSCRIBE TO OUR NEWS_LETTER
+        </h1>
+        <form>
+            <input type="email" placeholder="enter e_mail">
+            <button type="submit" class="btn1" >Subscribe </button>
+        </form>
+    </div>
+</section>
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+<!--            add html5 image here    -->
+           <img src="download.png">
+            <h3>
+                HTML5 markup
+            </h3>
+            <p>
+                is laudantium ex at dicta consequatur aspernatur dignissimos?
+            </p>
+        </div>
+            <div class="box">
+                <img src="css.png">
+                <h3>
+                    CSS3 styling
+                </h3>
+                <p>
+                    is laudantium ex at dicta consequatur aspernatur dignissimos?
+                </p>
+            </div>
+            <div class="box">
+               <img src="images.png">
+                <h3>
+                    Graphic designing
+                </h3>
+                <p>
+                    is laudantium ex at dicta consequatur aspernatur dignissimos?
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+<footer>
+    <p>
+        Abu bakar web design Copyrignt &copy; 2019
+    </p>
+</footer>
+</body>
+</html>
