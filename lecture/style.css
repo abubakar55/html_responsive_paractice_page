@@ -1,0 +1,88 @@
+*{
+ box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+img
+{
+    float: right;
+    margin-right: 10px;
+}
+#content
+{
+    background-color: aqua;
+    overflow: auto;
+    color: black;
+    padding: 12px;
+}
+.container {
+    width: 100%;
+
+}
+.container p{
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 33.3%;
+    background-color: brown;
+    text-transform: uppercase;
+
+}
+.gallery
+{
+    width: 100%;
+    overflow: auto;
+}
+.gallery div
+{
+    width: 23%;
+    background-color: blue;
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-transform: uppercase;
+}
+.gallery  img
+{
+    width: 100%;
+
+}
+.topnav
+{
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+
+}
+.topnav a{
+    width: 20%;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px;
+}
+.topnav a:hover
+{
+    background-color: gray;
+}
+.current
+{
+    background-color: gray;
+}
+.topnav i
+{
+    margin-right: 2px;
+    font-size: 20px;
+}
