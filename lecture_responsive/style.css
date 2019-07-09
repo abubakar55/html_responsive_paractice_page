@@ -1,0 +1,116 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #bbbbbb;
+    padding: 10px;
+}
+.header
+{
+    padding: 16px;
+    text-align:center;
+    background-color: white;
+}
+.header h1
+{
+    font-size: 15px;
+
+
+    margin: 10px 0px;
+    /*font-family: "Segoe MDL2 Assets";*/
+
+}
+.header a i
+{
+    padding: 10px;
+    margin: 10px;
+}
+.topnav
+{
+    width: 100%;
+    background-color: cadetblue;
+    font-size: 18px;
+    overflow: auto;
+}
+.topnav a
+{
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+.topnav a:last-child
+{
+    float: right;
+}
+.topnav a:hover
+{
+ background-color: gray;
+}
+.active
+{
+    background-color: #4CAF50;
+}
+.leftcoloumn
+{
+    width: 75%;
+    float: left;
+
+}
+.rightcoloumn
+{
+    width: 25%;
+    float: left;
+
+}
+.card
+{
+    background-color: white;
+    padding: 25px;
+    margin: 12px;
+    overflow: auto;
+}
+.leftcoloumn img
+{
+    width: 100%;
+}
+.description
+{
+    /*color: #888888;*/
+    text-align: justify;
+    line-height: 2;
+    word-spacing: 2;
+}
+.clearfix
+{
+    clear: both;
+}
+.footer
+{
+    background-color: skyblue;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+@media screen and (max-width:800px)
+{
+.leftcoloumn, .rightcoloumn
+{
+    width: 100%;
+    float: none;
+}
+}
+@media screen and (max-width: 425px){
+    .topnav a, .topnav a:last-child
+    {
+        display: block;
+        float: none;
+    }
+
+
+}
