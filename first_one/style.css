@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #bbbbbb;
+    background-size: cover;
+    
+}
+img
+{
+    margin: auto;
+    background-repeat: none;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+li 
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 16px 16px;
+}
+li a:hover
+{
+    background-color: green;
+}
+img
+{
+    height: 300px;
+}
+.active
+{
+    background-color:green;
+    color:white;
+}
+li:last-child
+{
+    float: right;
+}
+.heading
+{
+    text-align: center;
+    color:black;
+}
+.leftcoloumn
+{
+    float: left;
+    width: 75%;
+    color: black;
+}
+.leftcoloumn img
+{
+    width: 100%;
+}
+.rightcoloumn
+{
+    float: right;
+    width: 25%;
+}
+.card
+{
+    background-color: white;
+    margin: 15px;
+    padding: 25px;
+    overflow: auto;
+}
+.description
+{
+    text-align: justify;
+    line-height: 2;
+    word-spacing: 2;
+}
+.clearfix
+{
+    clear: both;
+}
+.footer
+{
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:990px)
+{
+    .leftcoloumn,.rightcoloumn
+    {
+        width: 100%;
+        float: none;
+    }
+}
+@media screen and (max-width:500px)
+{
+    .nav a,.nav a:last-child
+    {
+        display: block;
+        float: none;
+    }
+}
