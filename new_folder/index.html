@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Bootstrap 4 Layout</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+                        <!--navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><img src="images.jpg"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ's</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Support</a> </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+                        <!--image slider-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1" class="active"></li>
+        <li data-target="#slides" data-slide-to="2" class="active"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active" >
+            <img src="26270411.jpg">
+            <div class="carousel-caption">
+                <h1 class="display-2">Bootstrap</h1>
+                <h3>Complete Website Layout</h3>
+                <button type="button" class="btn btn-outline-light btn-lg" >View Demo</button>
+                <button type="button" class="btn btn-primary btn-lg" >Get Started</button>
+            </div>
+
+        </div>
+        <div class="carousel-item">
+            <img src="99739.jpg">
+        </div>
+        <div class="carousel-item">
+            <img src="4c0d6fb9fa82ef642c85305d946a2a1a.png">
+        </div>
+
+    </div>
+</div>
+<!--        jumbotron  --->
+ <div class="container-fluid">
+     <div class="row jumbotron">
+         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+             <p class="lead">
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.
+             </p>
+         </div>
+         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+             <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+         </div>
+     </div>
+ </div>
+<!--            welcome section-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Built with ease</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+        </div>
+    </div>
+</div>
+<!--                      Three coloumn section  -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-code"></i>
+            <h3>HTML5</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-bold"></i>
+            <h3>Bootstrap4</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+        </div>
+        <div class=" col-sm-12 col-md-4">
+            <i class="fab fa-css3"></i>
+            <h3>CSS3</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+        </div>
+
+    </div>
+    <hr class="my-4">
+</div>
+
+<!--                     Two coloumn section   ---->
+<div class="container-fluid padding">
+<div class="row padding">
+    <div class=" col-lg-6">
+        <h2>If you Buid it...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.
+        </p>
+        <br>
+        <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+    <div class="col-lg-6">
+        <img src="5b4f34d9ae653a3e873aa442.jpg" class="img-fluid">
+    </div>
+   </div>
+ </div>
+<!--                 Fixed background       -->
+<hr class="my-4">
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+
+                </div>
+            </div>
+        </figure>
+<!--               Meet the team         -->
+<div class="container-fluid padding">
+   <div class="row welcome text-center ">
+       <div class="col-12">
+           <h1>Meeet the team</h1>
+
+       </div>
+       <hr>
+   </div>
+</div>
+<!--                   CARDS     -->
+<div class="container-fluid padding">
+   <div class="row padding">
+       <div class="col-md-4">
+           <div class="cards">
+               <img class="card-img-top" src="0.jpg">
+               <div class="card-body">
+                   <h4 class="card-title">Muhammad Asif</h4>
+                   <p>Software Engineer at Consult Things (pvt) Ltd</p>
+                   <a href="#" class="btn btn-outline-secondary">See Profile</a>
+               </div>
+           </div>
+       </div>
+
+       <div class="col-md-4">
+           <div class="cards">
+               <img class="card-img-top" src="0%20(1).jpg">
+               <div class="card-body">
+                   <h4 class="card-title">Umair Ifthikhar</h4>
+                   <p>IT Analyst | Technical Architect | Team Lead | Project Manager</p>
+                   <a href="#" class="btn btn-outline-secondary">See Profile</a>
+               </div>
+           </div>
+       </div>
+
+       <div class="col-md-4">
+           <div class="cards">
+               <img class="card-img-top" src="0%20(2).jpg">
+               <div class="card-body">
+                   <h4 class="card-title">Zeeshan Tariq</h4>
+                   <p>Islamabad Gpo, Federal Capial &AJK, Pakistan</p>
+                   <a href="#" class="btn btn-outline-secondary">See Profile</a>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<!--                     two coloumn Section   -->
+                        <div class="container-fluid padding">
+                            <div class="row padding">
+                                <div class=" col-lg-6">
+                                    <h2>Our Vision</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro magni quisquam tempore fugiat? Maiores rem necessitatibus quisquam eius, dolore praesentium. A, reiciendis corrupti veniam ratione pariatur voluptatum explicabo veritatis ea.</p>
+
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="libra-withtext.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                        </div>
+<!--                     Connect   -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"> </i> </a>
+            <a href="#"><i class="fab fa-twitter"> </i> </a>
+            <a href="#"><i class="fab fa-google-plus-g"> </i> </a>
+            <a href="#"><i class="fab fa-instagram"> </i> </a>
+            <a href="#"><i class="fab fa-youtube"> </i> </a>
+<!--            <a href="#"><i class="fab fa-facebook"> </i> </a>  -->
+        </div>
+    </div>
+</div>
+<!--                    Foooter    -->
+ <footer>
+     <div class="container-fluid padding">
+         <div class="row text-center">
+              <div class="col-md-4">
+                  <img src="images.jpg">
+                  <hr class="light">
+                  <p>444-435-245</p>
+                  <p>html@hotmail.com</p>
+                  <p>100 street Name</p>
+                  <p>City,State,8484</p>
+              </div>
+             <div class="col-md-4">
+                 <hr class="light">
+                 <h5>Our Hours</h5>
+                 <hr class="light">
+                 <p>Monday : 9am-5pm</p>
+                 <p>Saturday : 9am-5pm</p>
+                 <p>Sunday : Closed</p>
+             </div>
+
+             <div class="col-md-4">
+                 <hr class="light">
+                 <h5>Services</h5>
+                 <hr class="light">
+                 <p>City,State,8484</p>
+                 <p>City,State,8484</p>
+                 <p>City,State,8484</p>
+                 <p>City,State,8484</p>
+             </div>
+             <div class="col-12">
+                 <hr class="light-100">
+                 <h5>&copy;Muhammad Abu Bakar</h5>
+             </div>
+
+         </div>
+     </div>
+ </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
